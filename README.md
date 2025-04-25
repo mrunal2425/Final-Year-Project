@@ -58,14 +58,14 @@ Prerequisites
   Lamp ON/OFF status updated via HTTP GET/POST
 
 **Dependencies:**
-flutter:
-    sdk: flutter
-  cupertino_icons: ^1.0.2
-  firebase_core: ^3.12.1
-  firebase_auth: ^5.5.1
-  cloud_firestore: ^5.6.5
-  http: ^1.3.0
-  provider: ^6.0.0
+-flutter:
+   - sdk: flutter
+  -cupertino_icons: ^1.0.2
+  -firebase_core: ^3.12.1
+  -firebase_auth: ^5.5.1
+  -cloud_firestore: ^5.6.5
+  -http: ^1.3.0
+  -provider: ^6.0.0
 
 **Future Scope:**
   
