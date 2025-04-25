@@ -36,21 +36,34 @@ lib/
 
 Setup Instructions
 Prerequisites
+   
    Flutter SDK installed
+   
    Android Studio or VS Code
+   
    Firebase project setup
+   
    ThinkSpeak channel and API key
+   
    ESP32 connected and publishing data
 
 ESP32 Integration
+  
   Uses ESP32 with UV lamp circuit
+  
   Publishes data to ThinkSpeak channel
+  
   Controlled via public/private API keys
+  
   Lamp ON/OFF status updated via HTTP GET/POST
 
 
 Future Scope:
+  
   PDF report generation for lamp history
+  
   Multi-user roles and permissions
+  
   Push notifications for errors
+  
   Historical data analytics
