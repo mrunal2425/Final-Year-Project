@@ -34,7 +34,7 @@ lib/
     └── custom_button.dart
     └── lamp_tile.dart
 
-Setup Instructions
+**Setup Instructions**
 Prerequisites
    
    Flutter SDK installed
@@ -47,7 +47,7 @@ Prerequisites
    
    ESP32 connected and publishing data
 
-ESP32 Integration
+**ESP32 Integration**
   
   Uses ESP32 with UV lamp circuit
   
@@ -58,7 +58,7 @@ ESP32 Integration
   Lamp ON/OFF status updated via HTTP GET/POST
 
 
-Future Scope:
+**Future Scope:**
   
   PDF report generation for lamp history
   
