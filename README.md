@@ -1,24 +1,56 @@
 # Final-Year-Project
+# CLoud-Integrated Air Purification System
 
-UV Lamp Monitoring and Control System
+A Flutter-based Android application developed for **Arklite Speciality Lamps Pvt. Ltd.** that monitors and controls UV lamps in HVAC systems. It integrates IoT (ESP32) and cloud services (ThinkSpeak & Firebase) for real-time monitoring, working hour tracking, error detection, and on/off control of UV lamps.
 
-An Android-based IoT application built using Flutter, designed to monitor and control UV lamps used in central air conditioning systems. The app fetches real-time data from the ESP32 microcontroller* via ThingSpeak cloud and allows remote control of the lamp, helping prevent fungal and bacterial growth on cooling coils. Developed under an MoU with *Arklite Speciality Lamps Pvt. Ltd., this interdisciplinary project integrates Eectronics & Telecommunication* and *Computer Engineering disciplines.
 
- Features
+##  Features
 
-- Real-Time Monitoring*: View lamp status (ON/OFF), operating hours, and error alerts.
-- Remote Control*: Turn the lamp ON/OFF from the app.
-- Cloud Integration:
-  - ThingSpeak for fetching sensor data and controlling devices.
-  - Firebase for secure employee login and authentication.
-- PDF Report Generation*: Automatically generate a report with current lamp data, logo, and timestamp.
-- Clean UI: Modern interface designed in Figma and implemented using Flutter.
+-  **Secure Login** using Firebase Authentication
+-  **Real-Time Lamp Status** (ON/OFF)
+-  **Working Hours Display**
+-  **Error Detection Alert** after 135 seconds of lamp being OFF
+-  **Toggle Lamp ON/OFF** from the app
+-  **Global State Management** using Provider
+-  **Custom UI Dashboard** with individual lamp status
 
- Tech Stack
 
-- Frontend*: Flutter (Dart)
-- Backend/Cloud: Firebase Authentication, ThingSpeak (API Integration)
-- Microcontroller: ESP32 with Wi-Fi support
-- IDE: Android Studio
-- Others: Figma (UI Design), Firebase Console, ThingSpeak IoT Platform
+##  Folder Structure
 
+lib/
+├── main.dart
+├── screens/
+│   ├── home_screen.dart
+│   ├── lamp_screen.dart
+│   ├── login_screen.dart
+│   └── signup_screen.dart
+├── services/
+│   ├── firebase_auth_service.dart
+│   └── thingspeak_service.dart
+├── utils/
+│   └── lamp_state.dart
+|   └──app_theme.dart
+└── widgets/
+    └── custom_button.dart
+    └── lamp_tile.dart
+
+Setup Instructions
+Prerequisites
+   Flutter SDK installed
+   Android Studio or VS Code
+   Firebase project setup
+   ThinkSpeak channel and API key
+   ESP32 connected and publishing data
+
+ESP32 Integration
+  Uses ESP32 with UV lamp circuit
+  Publishes data to ThinkSpeak channel
+  Controlled via public/private API keys
+  Lamp ON/OFF status updated via HTTP GET/POST
+
+
+Future Scope:
+  PDF report generation for lamp history
+  Multi-user roles and permissions
+  Push notifications for errors
+  Historical data analytics
