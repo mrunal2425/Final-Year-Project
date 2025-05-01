@@ -65,13 +65,6 @@ lib/
   - Push notifications for errors
   - Historical data analytics
 
-**Login screen**
-
-  ![WhatsApp Image 2025-05-01 at 19 44 12_af29d2f8](https://github.com/user-attachments/assets/cd7de5c9-cb1d-41c5-9108-1efc92db3272)
-  
-**Sign-up screen**
-
-![WhatsApp Image 2025-05-01 at 19 44 12_0f09a6bb](https://github.com/user-attachments/assets/b9d37832-c5cb-4d38-9064-2addcfdc434e)
 
 **Home screen**
 
