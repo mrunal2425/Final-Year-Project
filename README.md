@@ -35,27 +35,18 @@ lib/
     └── lamp_tile.dart
 
 **Setup Instructions**
-Prerequisites
-   
-   Flutter SDK installed
-   
-   Android Studio or VS Code
-   
-   Firebase project setup
-   
-   ThinkSpeak channel and API key
-   
-   ESP32 connected and publishing data
+-Prerequisites
+   -Flutter SDK installed
+   -Android Studio or VS Code
+   -Firebase project setup
+   -ThinkSpeak channel and API key
+   -ESP32 connected and publishing data
 
 **ESP32 Integration**
-  
-  Uses ESP32 with UV lamp circuit
-  
-  Publishes data to ThinkSpeak channel
-  
-  Controlled via public/private API keys
-  
-  Lamp ON/OFF status updated via HTTP GET/POST
+  -Uses ESP32 with UV lamp circuit
+  -Publishes data to ThinkSpeak channel
+  -Controlled via public/private API keys
+  -Lamp ON/OFF status updated via HTTP GET/POST
 
 **Dependencies:**
 - flutter:
@@ -68,11 +59,17 @@ Prerequisites
   - provider: ^6.0.0
 
 **Future Scope:**
+  -PDF report generation for lamp history
+  -Multi-user roles and permissions
+  -Push notifications for errors
+  -Historical data analytics
   
-  PDF report generation for lamp history
+**Home screen**
+  ![image](https://github.com/user-attachments/assets/2fdd0010-5c30-4d68-9c12-fce0ca8cacfb)
   
-  Multi-user roles and permissions
-  
-  Push notifications for errors
-  
-  Historical data analytics
+**Lamp screen**
+![image](https://github.com/user-attachments/assets/a9e2d5fe-4bba-4706-81ba-622a847976a9)
+
+**Error Message**
+![image](https://github.com/user-attachments/assets/0fb96502-7d6d-46e5-9b96-6449120f2b4b)
+
