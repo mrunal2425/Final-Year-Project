@@ -50,30 +50,39 @@ lib/
 
 **Dependencies:**
 - flutter:
-   - sdk: flutter
-  - cupertino_icons: ^1.0.2
-  - firebase_core: ^3.12.1
-  - firebase_auth: ^5.5.1
-  - cloud_firestore: ^5.6.5
-  - http: ^1.3.0
-  - provider: ^6.0.0
+    - sdk: flutter
+- cupertino_icons: ^1.0.2
+- firebase_core: ^3.12.1
+- firebase_auth: ^5.5.1
+- cloud_firestore: ^5.6.5
+- http: ^1.3.0
+- provider: ^6.0.0
 
 **Future Scope:**
-  -PDF report generation for lamp history
-  -Multi-user roles and permissions
-  -Push notifications for errors
-  -Historical data analytics
+
+  - PDF report generation for lamp history
+  - Multi-user roles and permissions
+  - Push notifications for errors
+  - Historical data analytics
+
+**Login screen**
+
+  ![WhatsApp Image 2025-05-01 at 19 44 12_af29d2f8](https://github.com/user-attachments/assets/cd7de5c9-cb1d-41c5-9108-1efc92db3272)
   
+**Sign-up screen**
+
+![WhatsApp Image 2025-05-01 at 19 44 12_0f09a6bb](https://github.com/user-attachments/assets/b9d37832-c5cb-4d38-9064-2addcfdc434e)
+
 **Home screen**
 
-  -![image](https://github.com/user-attachments/assets/2fdd0010-5c30-4d68-9c12-fce0ca8cacfb)
+  ![image](https://github.com/user-attachments/assets/2fdd0010-5c30-4d68-9c12-fce0ca8cacfb)
   
 **Lamp screen**
 
--![image](https://github.com/user-attachments/assets/a9e2d5fe-4bba-4706-81ba-622a847976a9)
+![image](https://github.com/user-attachments/assets/a9e2d5fe-4bba-4706-81ba-622a847976a9)
 
 
 **Error Message**
 
--![image](https://github.com/user-attachments/assets/0fb96502-7d6d-46e5-9b96-6449120f2b4b)
+![image](https://github.com/user-attachments/assets/0fb96502-7d6d-46e5-9b96-6449120f2b4b)
 
