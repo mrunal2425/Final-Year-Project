@@ -65,11 +65,15 @@ lib/
   -Historical data analytics
   
 **Home screen**
-  ![image](https://github.com/user-attachments/assets/2fdd0010-5c30-4d68-9c12-fce0ca8cacfb)
+
+  -![image](https://github.com/user-attachments/assets/2fdd0010-5c30-4d68-9c12-fce0ca8cacfb)
   
 **Lamp screen**
-![image](https://github.com/user-attachments/assets/a9e2d5fe-4bba-4706-81ba-622a847976a9)
+
+-![image](https://github.com/user-attachments/assets/a9e2d5fe-4bba-4706-81ba-622a847976a9)
+
 
 **Error Message**
-![image](https://github.com/user-attachments/assets/0fb96502-7d6d-46e5-9b96-6449120f2b4b)
+
+-![image](https://github.com/user-attachments/assets/0fb96502-7d6d-46e5-9b96-6449120f2b4b)
 
